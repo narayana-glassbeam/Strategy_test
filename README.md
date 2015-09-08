@@ -7,7 +7,7 @@ Hi Bharath,
           Akka Exception Strategy working is as follows :-
           
           1.Only Parent actor should have SupervisorStrategy to act upon child actors exceptions.
-            The Actor itself cant have supervisor strategy.
+            The Actor itself cant have supervisor strategy.[Akka_Strategy_1.scala]
           
           2.Tested Escalation Exception Strategy when Esacalte Exception Happens It is completey up to the
             parent supervisor or who handles that exception what decision to take like in our case 
